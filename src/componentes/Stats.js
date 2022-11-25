@@ -31,7 +31,7 @@ const StatsData = [
 const Stats = () => {
   return (
     <StatsContainer>
-        <Heading>Why choose us?</Heading>
+        <Heading>¿Qué ofrecemos?</Heading>
         <Wrapper>
             {StatsData.map((item , index) => {
                 return(

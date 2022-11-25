@@ -18,12 +18,14 @@ import Morse from './rutas/Morse';
 import ErrorPage from './rutas/ErrorPage';
 import ExerciseDetail from "./fitness/ExerciseDetail";
 import Searched from "./nutricion/Searched";
+import Footer from "./componentes/Footer";
 
 const AppLayout = () => {
   return (
     <>
       <Navbar />
       <Outlet />
+      <Footer/>
     </>
   );
 };
