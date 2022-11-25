@@ -32,7 +32,7 @@ function Veggie() {
   return (
     <div>
         <Wrapper>
-        <h2>Platillos vegetarianos</h2>
+        <h2 style={{padding: '2rem 0'}}>Platillos <span style={{background: '#216B91', color: '#fff', display: 'inline-block', padding: '.5rem 3rem', clipPath:' polygon(100% 0, 93% 50%, 100% 99%, 0% 100%, 7% 50%, 0% 0%)'}}> vegetarianos</span></h2>
         <p>Desliza para ver más</p>
 
         <Splide options={{

@@ -34,7 +34,7 @@ function Popular() {
   return (
     <div>
         <Wrapper>
-                <h2>Platillos populares</h2>
+                <h2>Platillos <span style={{background: '#216B91', color: '#fff', display: 'inline-block', padding: '.5rem 3rem', clipPath:' polygon(100% 0, 93% 50%, 100% 99%, 0% 100%, 7% 50%, 0% 0%)'}}> populares </span></h2>
                 <p>Desliza para ver más</p>
 
                 <Splide options={{

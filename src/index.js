@@ -19,6 +19,7 @@ import ErrorPage from './rutas/ErrorPage';
 import ExerciseDetail from "./fitness/ExerciseDetail";
 import Searched from "./nutricion/Searched";
 import Footer from "./componentes/Footer";
+import Salud from "./rutas/Salud";
 
 const AppLayout = () => {
   return (
@@ -66,6 +67,10 @@ const router = createBrowserRouter([
       {
         path: "morse",
         element: <Morse />,
+      },
+      {
+        path: "salud",
+        element: <Salud />,
       },
     ],
   },

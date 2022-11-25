@@ -14,7 +14,7 @@ function Hero() {
             <HeroItems>
                 <HeroH1>Morhealth</HeroH1>
                 <HeroP>Prioriza tu salud</HeroP>
-                <Button primary="true" big="true" round="true" to="/modulos">Módulos</Button>
+                
             </HeroItems>
         </HeroContent>
     </HeroContainer>

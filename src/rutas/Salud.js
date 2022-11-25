@@ -1,8 +1,12 @@
-import React from 'react'
+import React from 'react';
+import MentalHealth from '../salud/MentalHealth';
+
 
 function Salud() {
   return (
-    <div>Salud</div>
+    <div>
+      <MentalHealth/>
+    </div>
   )
 }
 
