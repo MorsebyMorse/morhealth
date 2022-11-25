@@ -16,7 +16,7 @@
   z-index: 999;
 }
 .navbar.active{
-  background: linear-gradient(90deg, rgb(66,2,194) 0%, rgb(0,78,194) 100%);
+  background: linear-gradient(90deg, rgb(217,217,217) 0%, rgb(247,248,248) 100%);
 } 
 
 .navbar-container {
@@ -36,7 +36,7 @@
 }
 
 .navbar-logo {
-  color: #fff;
+  color: #031728;
   justify-self: start;
   cursor: pointer;
   text-decoration: none;
@@ -64,24 +64,25 @@
 }
 
 .nav-item:hover {
-  border-bottom: 2px solid #09bef0;
+  border-bottom: 2px solid #216B91;
 }
 
 .nav-links {
-  color: #fff;
+  color: #031728;
   display: flex;
   align-items: center;
   text-decoration: none;
   padding: 0.5rem 1rem;
   height: 100%;
+  font-weight: bold;
 }
 
 .activated {
-  color: #09bef0;
+  color: #216B91;
 }
 
 .fa-bars {
-  color: #fff;
+  color: #031728;
 }
 
 .menu-icon {
@@ -105,7 +106,7 @@
   }
 
   .nav-menu.active {
-    background: #19191a;
+    background: linear-gradient(90deg, rgb(217,217,217) 0%, rgb(247,248,248) 100%);
     left: 0;
     opacity: 1;
     transition: all 0.6s ease;
@@ -120,9 +121,10 @@
   }
 
   .nav-links:hover {
-    color: #09bef0;
+    color: #216B91;
     transform: scale(1.2);
     transition: all 0.3s ease;
+    font-weight: 500;
   }
 
   .nav-item:hover {

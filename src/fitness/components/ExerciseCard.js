@@ -5,13 +5,13 @@ import { Button, Stack, Typography } from '@mui/material';
 
 const ExerciseCard = ({ exercise }) => {
   return (
-    <Link className="exercise-card" to={`/ejercicios/${exercise.id}`}>
+    <Link style={{textDecoration: 'none'}} className="exercise-card" to={`/ejercicios/${exercise.id}`}>
     <img src={exercise.gifUrl} alt={exercise.name} loading="lazy" />
     <Stack direction="row">
-      <Button sx={{ ml: '21px', color: '#fff', background: '#FFA9A9', fontSize: '14px', borderRadius: '20px', textTransform: 'capitalize' }}>
+      <Button sx={{ ml: '21px', color: '#fff', background: '#216B91', fontSize: '14px', borderRadius: '20px', textTransform: 'capitalize' }}>
         {exercise.bodyPart}
       </Button>
-      <Button sx={{ ml: '21px', color: '#fff', background: '#FCC757', fontSize: '14px', borderRadius: '20px', textTransform: 'capitalize' }}>
+      <Button sx={{ ml: '21px', color: '#fff', background: '#031728', fontSize: '14px', borderRadius: '20px', textTransform: 'capitalize' }}>
         {exercise.target}
       </Button>
     </Stack>

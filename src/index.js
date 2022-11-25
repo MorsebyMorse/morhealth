@@ -12,9 +12,12 @@ import Navbar from './componentes/Navbar';
 import Inicio from './rutas/Inicio';
 import Ejercicios from './rutas/Ejercicios';
 import Nutricion from './rutas/Nutricion';
+import Cuisine from "./nutricion/Cuisine";
+import Recipe from "./nutricion/Recipe";
 import Morse from './rutas/Morse';
 import ErrorPage from './rutas/ErrorPage';
 import ExerciseDetail from "./fitness/ExerciseDetail";
+import Searched from "./nutricion/Searched";
 
 const AppLayout = () => {
   return (
@@ -45,6 +48,18 @@ const router = createBrowserRouter([
       {
         path: "nutricion",
         element: <Nutricion />,
+      },
+      {
+        path: "nutricion/searched/:search",
+        element: <Searched />,
+      },
+      {
+        path: "nutricion/cuisine/:type",
+        element: <Cuisine />,
+      },
+      {
+        path: "nutricion/recipe/:name",
+        element: <Recipe />,
       },
       {
         path: "morse",

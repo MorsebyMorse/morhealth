@@ -34,7 +34,7 @@ function Navbar() {
               <img src={MH} width="160px"/>
             </Link>
             <div className="menu-icon" onClick={handleClick}>
-              {click ? <FaTimes /> : <FaBars />}
+              {click ? <FaTimes style={{ color: '#031728' }}/> : <FaBars style={{ color: '#031728' }}/>}
             </div>
             <ul className={click ? "nav-menu active" : "nav-menu"}>
               <li className="nav-item">
@@ -61,13 +61,13 @@ function Navbar() {
               </li>
               <li className="nav-item">
                 <NavLink
-                  to="/recetas"
+                  to="/nutricion"
                   className={({ isActive }) =>
                     "nav-links" + (isActive ? " activated" : "")
                   }
                   onClick={closeMobileMenu}
                 >
-                  Recetas
+                  Nutrición
                 </NavLink>
               </li>
               <li className="nav-item">
