@@ -67,7 +67,7 @@ const Menu = styled.div`
   flex-direction: column;
   list-style: none;
 `;
-const MenuItem = styled.li`
+const MenuItem = styled(Link)`
   margin-top: 10px;
   font-size: 20px;
   font-weight: bold;
@@ -108,18 +108,18 @@ const Footer = () => {
         <MenuItems>
           <Title>Módulos</Title>
           <Menu>
-            <MenuItem href="#">Inicio</MenuItem>
-            <MenuItem href="#">Ejercicios</MenuItem>
-            <MenuItem href="#">Nutrición</MenuItem>
-            <MenuItem href="#">Salud</MenuItem>
-            <MenuItem href="#">Morse</MenuItem>
+            <MenuItem to='/'>Inicio</MenuItem>
+            <MenuItem  to='/ejercicios'>Ejercicios</MenuItem>
+            <MenuItem  to='/nutricion'>Nutrición</MenuItem>
+            <MenuItem  to='/salud'>Salud</MenuItem>
+            <MenuItem to='/morse'>Morse</MenuItem>
           </Menu>
         </MenuItems>
         <MenuItems>
           <Title>Our Policies</Title>
           <Menu>
-            <MenuItem href="#">Privacy Policy</MenuItem>
-            <MenuItem href="#">Data Policy</MenuItem>
+            <MenuItem href="#">Políticas de privacidad</MenuItem>
+            <MenuItem href="#">Poliza de datos</MenuItem>
           </Menu>
         </MenuItems>
       </Container>

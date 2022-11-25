@@ -10,22 +10,22 @@ const StatsData = [
     {
         icon: (<BsFillHeartFill style={{color: '#DC143C'}}/>),
         title: "Salud",
-        desc: "Salud",
+        desc: "Proximamente",
     },
     {
         icon: (<MdOutlineFitnessCenter style={{color: '#708090'}}/>),
         title: "Ejercicios",
-        desc: "Ejercicios",
+        desc: "Miles de ejercicios para mantenerte fuerte y saludable",
     },
     {
         icon: (<FaAppleAlt style={{color: '#9ACD32'}}/>),
         title: "Nutricion",
-        desc: "Nutricion",
+        desc: "Recetas y dietas",
     },
     {
         icon: (<GiWalrusHead style={{color: '#031728'}}/>),
         title: "Morse",
-        desc: "Morse",
+        desc: "Lo mejor para tus necesidades",
     },
 ]
 const Stats = () => {
